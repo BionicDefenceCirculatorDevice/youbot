@@ -16,7 +16,7 @@ dependencies() {
 command -v tor > /dev/null 2>&1 || { echo >&2 "I require tor but it's not installed. Run apt-get install Tor. Aborting."; exit 1; }
 command -v proxychains > /dev/null 2>&1 || { echo >&2 "I require proxychains but it's not installed. Run apt-get install proxychains. Aborting."; exit 1; }
 command -v xdotool > /dev/null 2>&1 || { echo >&2 "I require xdotool but it's not installed. Run apt-get install xdotool. Aborting."; exit 1; }
-command -v firefox > /dev/null 2>&1 || { echo >&2 "I require firefox but it's not installed. Aborting."; exit 1; }
+command -v firefox > /dev/null 2>&1 || { echo >&2 "I require firefox but it's not installed. Run apt-get install firefox. Aborting."; exit 1; }
 }
 dependencies
 
